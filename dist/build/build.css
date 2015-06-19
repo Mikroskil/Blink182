@@ -1,1 +1,8 @@
 body{font:12px Helvetica,Arial,sans-serif}a.button{border-radius:5px}
+li{
+	list-style: none;
+} 
+p{
+	margin: none;
+	font-size: 10px;
+}
