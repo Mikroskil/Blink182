@@ -3,69 +3,107 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title Hello World
-
+    title Blink182
     link(rel='stylesheet', type='text/css', href='build/build.css')
-
   body
-
     article
-
       section
-        h1 Saya yang edit
-
-      section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
-
-      section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-        ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
-
-      section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
-
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
+        h1 Blink182
+        .li1
           li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
-
+          li Eben Ezer Karo Karo
+          li Dody Samosir
+          li Frengki D Sianipar
+          li Imam Maulana Ibsan
+      section
+        h2
+          strong 4 Anime Terpopuler
+        h3
+          strong Versi Blink182
+        .li2
+          li
+          li
+            k Naruto
+          li
+            k One Piece
+          li
+            k Doraemon
+          li
+            k Dragon Ball
+      section#kontainer-rm
+        p Naruto
+        .kontainer
+          ul
+            .left
+            .center
+              li
+                p
+                  | Naruto (???) adalah sebuah serial manga karya Masashi Kishimoto yang diadaptasi menjadi serial anime. Manga Naruto bercerita seputar kehidupan tokoh utamanya, Naruto Uzumaki, seorang ninja yang berisik, hiperaktif, dan ambisius yang ingin mewujudkan keinginannya untuk mendapatkan gelar Hokage, pemimpin dan ninja terkuat di desanya. Serial ini didasarkan pada komik one-shot oleh Kishimoto yang diterbitkan dalam edisi Akamaru Jump pada Agustus 1997
+              li
+                img(src='image/naruto.jpg', ;='', style='width: 200px', height='230px')
+      section#kontainer-bc
+        p One Pice
+        .kontainer
+          ul
+            .left
+            .center
+              li
+                p
+                  | One Piece (????? wanpisu) adalah sebuah anime dan manga tentang sekelompok bajak laut yang dipimpin oleh Monkey D. Luffy yang pergi mencari harta karun legendaris bernama One Piece. Luffy menjadi manusia karet yang memiliki kekuatan memanjangkan tubuhnya setelah secara tak sengaja memakan buah Gomu Gomu, salah satu dari buah iblis. Selama perjalanan Luffy banyak bertemu dengan teman baru dan musuh yang beragam.
+              li
+                img(src='image/Onepiece.png', ;='', style='width: 200px', height='230px')
+      section#kontainer-mu
+        p Doraemon
+        .kontainer
+          ul
+            li
+            .left
+            .center
+              li
+                p
+                  | Doraemon (?????) adalah judul sebuah manga dan anime populer yang dikarang Fujiko F. Fujio (??·F·???) sejak tahun 1969 dan berkisah tentang kehidupan seorang anak pemalas kelas 5 sekolah dasar yang bernama Nobi Nobita (?????) yang didatangi oleh sebuah robot kucing bernama Doraemon yang datang dari abad ke-22. Doraemon dikirim untuk menolong Nobita agar keturunan Nobita dapat menikmati kesuksesannya daripada harus menderita dari utang finansial yang akan terjadi di masa depan yang disebabkan karena kebodohan Nobita.
+              li
+                img(src='image/Doraemon.jpg', ;='', style='width: 200px', height='230px')
+      section#kontainer-bm
+        p Dragon Ball
+        .kontainer
+          ul
+            li
+            .left
+            .center
+              li
+                p
+                  | Dragon Ball (??????? Doragon Boru?) adalah sebuah manga dan anime Jepang yang dikarang oleh Akira Toriyama dari tahun 1984 sampai 1995. Albumnya terdiri dari 42 buku dan di Indonesia diterbitkan oleh Elex Media Komputindo. Sebelumnya Dragon Ball juga pernah diterbitkan oleh Rajawali Grafiti.
+              li
+                img(src='image/drago.jpg', ;='', style='width: 200px', height='230px')
+      //
+        <section  data-bespoke-hash="named-route" id="kontainer-am">
+        <p>Juve</p>
+        <div class="kontainer">
+        <ul>
+        <li></li>
+        <div class="left">
+        </div>
+        <div class="center">
+        <li>
+        </li>
+        </div>
+        </div>
+        </ul>
+        </div>
+        </section>
+      section
+        h2.bullet Bujur Melala... !!!
+        //
+          <!--        <h2 class="bullet">Just the beginning...</h2><br>
+        //
+          <ul>
+          <li>Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em></li>
+          <li>Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em></li>
+          <li>Edit JavaScript in <em>'src/scripts/main.js'</em></li>
+          </ul><br>
+          <ul>
+        //
+          <li><strong>Enjoy! :)</strong><a href="http://twitter.com/markdalgleish"> -@markdalgleish</a></li>
+          </ul>
     script(src='build/build.js')
